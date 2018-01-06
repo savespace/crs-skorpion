@@ -1,0 +1,154 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300");
+@import url("https://fonts.googleapis.com/css?family=Muli");
+@import url("https://fonts.googleapis.com/css?family=Anton");
+@import url('https://fonts.googleapis.com/css?family=Ultra');
+@import url('https://fonts.googleapis.com/css?family=Special+Elite');
+/* RESET USTAWIE┼â */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; }
+
+.container {
+  max-width: 1600px;
+  width: 100%;
+  margin: 0 auto;
+  font-family: "Muli", sans-serif; }
+
+body h1 {
+  font-family: "Anton"; }
+
+header {
+  background: #4E5744;
+  height: 30px;
+  position: relative;
+  margin: 0;
+  z-index: 9999;
+  box-shadow: 0 1px 5px #000; }
+  header .contact-me {
+    color: #fff;
+    padding-top: 5px; }
+    header .contact-me ul {
+      list-style-type: none; }
+      header .contact-me ul li {
+        float: left;
+        padding: 0 20px; }
+        header .contact-me ul li i {
+          padding: 0 10px; }
+        header .contact-me ul li a {
+          color: #fff;
+          text-decoration: none; }
+
+.hero {
+  background: url('images/hero.jpeg') fixed no-repeat;
+  height: 700px;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  display: block;
+  padding: 0;
+}
+.hero .bg {
+  background: linear-gradient(to right, #4E5744, orange);
+  height: 700px;
+  opacity: 0.6;
+  width: 100%; }
+
+.hero .slogan {
+  text-align: center;
+  text-transform: uppercase;
+  color: #fff;
+  padding-top: 250px;
+}
+  .hero .slogan h1 {
+    font-family: 'Special Elite', cursive;
+    font-size: 100px;
+    font-style: bold;
+    font-weight: 700;
+  }
+
+  .hero .slogan p {
+    font-family: 'Special Elite', cursive;
+    font-size: 20px;
+  }
+
+.navi {
+  background: #4E5744;
+  height: 60px;
+  box-shadow: 0 1px 5px #000; }
+.navi img {
+  height: 60px;
+  line-height: 60px;
+}
+.navi-container i {
+  font-size: 40px;
+  color: #fff;
+  line-height: 60px;
+  padding: 0 10px; }
+  .navi-container i:hover {
+    color: #0174B5;
+    cursor: pointer; }
+
+.nav_list {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  text-align: center; }
+  .nav_list li {
+    display: inline-block; }
+    .nav_list li a {
+      line-height: 60px;
+      padding: 0 20px;
+      color: #fff;
+      display: block;
+      text-decoration: none;
+      text-transform: uppercase; }
+      .nav_list li a:hover {
+        background-color: #0174B5;
+        transition: 0.3s; }
+
+
+
+
+
+.port-head {
+  text-align: center;
+  margin-top: 5vh;
+  margin-bottom: 10vh; }
+
+.port-content {
+  background-color: #f2f2f1;
+  height: 400px;
+  padding-left: 10vh; }
+
+footer {
+  background: #4E5744;
+  color: #fff;
+  text-align: center;
+  height: 250px; }
+  footer h1 {
+    opacity: 0.5;
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+    font-family: "Open Sans Condensed"; }
+  footer p {
+    opacity: 0.5;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 23px; }
+
+.new-project {
+  list-style-type: none; }
+
+.lower-footer {
+  background-color: #4E5744;
+  height: 94px; }
+  .lower-footer p {
+    line-height: 94px;
+    margin: 0 auto; }
+
+/*# sourceMappingURL=style.css.map */
