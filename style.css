@@ -79,7 +79,7 @@ header {
   height: 60px;
   box-shadow: 0 1px 5px #000; }
 .navi img {
-  height: 60px;
+  height: 50px;
   line-height: 60px;
 }
 .navi-container i {
@@ -104,27 +104,31 @@ header {
       color: #fff;
       display: block;
       text-decoration: none;
-      text-transform: uppercase; }
+      text-transform: uppercase;
+       }
       .nav_list li a:hover {
-        background-color: #0174B5;
+        background-color: #647254;
         transition: 0.3s; }
 
+/*o nas*/
+
+.movie {
+  float: left;
+  padding: 120px 30px;
+}
+
+.text_movie {
+  padding: 120px 30px;
+}
+.text_movie h1 {
+  font-family: 'Special Elite', cursive;
+}
 
 
 
-
-.port-head {
-  text-align: center;
-  margin-top: 5vh;
-  margin-bottom: 10vh; }
-
-.port-content {
-  background-color: #f2f2f1;
-  height: 400px;
-  padding-left: 10vh; }
 
 footer {
-  background: #4E5744;
+  background: #647254;
   color: #fff;
   text-align: center;
   height: 250px; }
